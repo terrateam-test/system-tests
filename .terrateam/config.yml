@@ -1,4 +1,7 @@
 engine:
   name: tofu
 when_modified:
-  autoplan: false
+  autoplan: true
+
+indexer:
+  enabled: true
