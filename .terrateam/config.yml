@@ -1,2 +1,9 @@
 engine:
   name: tofu
+when_modified:
+  autoapply: false
+  autoplan: true
+  autoplan_draft_pr: true
+  file_patterns:
+  - '**/*.tf'
+  - '**/*.tfvars'
