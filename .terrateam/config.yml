@@ -1,5 +1,12 @@
+dirs:
+  modules/**/*.tf:
+    when_modified:
+      file_patterns: []
+  tf:
+    when_modified:
+      file_patterns:
+      - tf/**.tf
+      - modules/**
+      - '!modules/ignore/*.tf'
 engine:
   name: tofu
-workflows:
-- lock_policy: apply
-  tag_query: dir:tf
