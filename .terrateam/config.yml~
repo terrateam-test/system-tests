@@ -11,6 +11,3 @@ dirs:
     when_modified:
       file_patterns: []
 
-drift:
-  enabled: true
-  schedule: hourly
