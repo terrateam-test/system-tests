@@ -5,7 +5,7 @@ indexer:
   enabled: true
 
 dirs:
-  **/*.tf:
+  tf:
     when_modified:
       file_patterns:
         - '${DIR}/**/*'
