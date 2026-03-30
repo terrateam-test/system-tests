@@ -14,10 +14,7 @@ dirs:
 drift:
   enabled: true
   schedules:
-    dev:
-      tag_query: "workspace:do1"
-      schedule: hourly
-    stg:
-      tag_query: "not workspace:do1"
+    default:
+      tag_query: ""
       schedule: hourly
 
