@@ -14,10 +14,7 @@ dirs:
 drift:
   enabled: true
   schedules:
-    dev:
-      tag_query: "workspace:dev and not dir:51-couchbase-cluster"
-      schedule: hourly
-    stg:
-      tag_query: "workspace:stg and not dir:51-couchbase-cluster"
+    default:
+      tag_query: ""
       schedule: hourly
 
