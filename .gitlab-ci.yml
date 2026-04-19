@@ -32,4 +32,4 @@ stages:
 terrateam_job:
   extends: .terrateam_template
   variables:
-    ACTION_BRANCH: 22422efb9dba84d2a7ff03af274605074b257ee0
+    ACTION_BRANCH: 26371bdcec2781625c683dd332dbaf1dd77e4610

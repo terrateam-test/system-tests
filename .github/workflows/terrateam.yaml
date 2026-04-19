@@ -42,7 +42,7 @@
        - uses: actions/checkout@v4
        - name: Run Terrateam Action
          id: terrateam
-         uses: terrateamio/action@22422efb9dba84d2a7ff03af274605074b257ee0
+         uses: terrateamio/action@26371bdcec2781625c683dd332dbaf1dd77e4610
          with:
            work-token: '${{ github.event.inputs.work-token }}'
            api-base-url: '${{ github.event.inputs.api-base-url }}'
