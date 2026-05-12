@@ -7,6 +7,5 @@ dirs:
       depends_on:
         tag_query: dir:c
         prune_on_no_change: true
-  c: {}
 engine:
   name: tofu
