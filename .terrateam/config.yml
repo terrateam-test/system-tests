@@ -1,2 +1,12 @@
 engine:
   name: tofu
+hooks:
+  all:
+    pre:
+    - capture_output: true
+      cmd:
+      - sh
+      - -c
+      - echo SENT_CODE_0012; exit 1
+      format: code
+      type: run
