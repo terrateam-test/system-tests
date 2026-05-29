@@ -1,10 +1,2 @@
-access_control:
-  enabled: true
-  policies:
-  - plan:
-    - '*'
-    apply_force: ['*']
-    tag_query: ''
-
 engine:
   name: tofu
