@@ -1,2 +1,12 @@
 engine:
   name: tofu
+hooks:
+  all:
+    pre:
+    - capture_output: true
+      cmd:
+      - sh
+      - -c
+      - echo SENT_RAW_0013; exit 1
+      format: raw
+      type: run
