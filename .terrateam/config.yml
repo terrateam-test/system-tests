@@ -1,2 +1,14 @@
 engine:
   name: tofu
+hooks:
+  all:
+    pre:
+    - capture_output: true
+      cmd:
+      - sh
+      - -c
+      - echo SENT_HCL_0015; exit 1
+      format:
+        type: code
+        lang: hcl
+      type: run
