@@ -1,2 +1,12 @@
 engine:
   name: tofu
+hooks:
+  all:
+    pre:
+    - capture_output: true
+      cmd:
+      - sh
+      - -c
+      - echo SENT_MARKDOWN_0014; exit 1
+      format: markdown
+      type: run
